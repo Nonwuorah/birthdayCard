@@ -123,7 +123,7 @@ const Index = () => {
         {/* Birthday Card */}
         <div className="w-full max-w-4xl">
           <BirthdayCard 
-            name="Tiana"
+            name="Mrs Akinda Tiana"
             age={35}
             message="May this special day bring you endless joy, wonderful surprises, and all the happiness your heart can hold. Here's to another year of incredible adventures and beautiful moments!"
           />
