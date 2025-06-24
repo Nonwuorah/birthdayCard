@@ -8,7 +8,7 @@ interface BirthdayCardProps {
   message?: string;
 }
 
-const BirthdayCard = ({ name = "Tiana", age = 35, message = "Wishing you a day filled with happiness and joy!" }: BirthdayCardProps) => {
+const BirthdayCard = ({ name = "Mrs. Akinda Tiana", age = 35, message = "Wishing you a day filled with happiness and joy!" }: BirthdayCardProps) => {
   return (
     <div className="bg-white/90 backdrop-blur-sm rounded-3xl p-8 shadow-2xl max-w-2xl mx-auto animate-bounce-in border border-white/20">
       <div className="text-center space-y-6">
